@@ -5,10 +5,10 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    flex-direction: column; /* Alinha os itens verticalmente */
-    height: 100vh; /* Garante que a altura seja 100% da tela */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
     text-align: center;
     opacity: 0;
     animation: fadeIn 3s forwards;
@@ -56,11 +56,11 @@ ul {
     gap: 50px;
     opacity: 0;
     animation: fadeIn 1s forwards;
-    animation-delay: 3s; /* ul aparece depois de 2 segundos */
+    animation-delay: 3s;
 }
 
 ul li {
-    margin: 0 15px; /* Espaçamento entre os links */
+    margin: 0 15px;
 }
 
 img{
@@ -70,57 +70,23 @@ img{
 
 
 a {
-    color: rgb(255, 255, 255); /* Cor do link */
-    text-decoration: none; /* Remove o sublinhado */
-    font-size: 18px; /* Tamanho da fonte */
-    transition: color 0.3s, transform 0.3s; /* Transição suave para hover */
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s, transform 0.3s;
     
 }
 
 a:hover {
-    color: rgb(255, 215, 0); /* Cor de destaque no hover */
-    transform: scale(1.1); /* Aumenta um pouco o link */
+    color: rgb(255, 215, 0);
+    transform: scale(1.1);
 }
 
-/* Animação de fadeIn */
 @keyframes fadeIn {
     0% {
         opacity: 0;
     }
     100% {
         opacity: 1;
-    }
-}
-@media (max-width: 768px) {
-    body {
-        height: auto; /* Evita que a altura force rolagem */
-        padding: 20px; /* Adiciona espaço para não colar nas bordas */
-    }
-
-    h1 {
-        font-size: 28px;
-    }
-
-    h2 {
-        font-size: 20px;
-    }
-
-    h3 {
-        font-size: 16px;
-    }
-
-    ul {
-        flex-direction: column; /* Empilha os itens verticalmente */
-        gap: 15px; /* Reduz espaço entre os links */
-        margin-top: 10px;
-    }
-
-    img {
-        width: 20px;
-        height: 20px;
-    }
-
-    a {
-        font-size: 14px;
     }
 }
