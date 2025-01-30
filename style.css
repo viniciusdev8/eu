@@ -5,10 +5,10 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
-    flex-direction: column;
-    height: 100vh;
+    flex-direction: column; 
+    height: 100vh; 
     text-align: center;
     opacity: 0;
     animation: fadeIn 3s forwards;
@@ -21,7 +21,7 @@ h1, h2, h3 {
 h1 {
     font-family: 'Courier New', Courier, monospace;
     color: rgb(255, 255, 255); 
-    font-size: 50px;
+    font-size: 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
     opacity: 0;
@@ -32,16 +32,17 @@ h1 {
 h2 {
     font-family: 'Courier New', Courier, monospace;
     color: rgb(200, 200, 200);
-    font-size: 30px;
-    margin-top: -20px;
+    font-size: 15px;
+    margin-top: -18px;
     font-style: italic;
     opacity: 0;
     animation: fadeIn 1s forwards;
     animation-delay: 1s;
 }
 h3 {
-    margin-top: -20px;
+    margin-top: 0px;
     font-style: italic;
+    font-size: 13px;
     opacity: 0;
     animation: fadeIn 1s forwards;
     animation-delay: 2s;
@@ -60,7 +61,7 @@ ul {
 }
 
 ul li {
-    margin: 0 15px;
+    margin: 0 15px; 
 }
 
 img{
@@ -70,10 +71,10 @@ img{
 
 
 a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-size: 18px;
-    transition: color 0.3s, transform 0.3s;
+    color: rgb(255, 255, 255); 
+    text-decoration: none; 
+    font-size: 18px; 
+    transition: color 0.3s, transform 0.3s; 
     
 }
 
