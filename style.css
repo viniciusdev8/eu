@@ -92,24 +92,35 @@ a:hover {
     }
 }
 @media (max-width: 768px) {
-    h1 {
-        font-size: 30px;
+    body {
+        height: auto; /* Evita que a altura force rolagem */
+        padding: 20px; /* Adiciona espaço para não colar nas bordas */
     }
+
+    h1 {
+        font-size: 28px;
+    }
+
     h2 {
         font-size: 20px;
     }
+
     h3 {
-        font-size: 18px;
-    }
-    ul {
-        flex-direction: column; /* Empilha os itens */
-        gap: 20px; /* Reduz o espaçamento */
-    }
-    img {
-        width: 25px;
-        height: 25px;
-    }
-    a {
         font-size: 16px;
+    }
+
+    ul {
+        flex-direction: column; /* Empilha os itens verticalmente */
+        gap: 15px; /* Reduz espaço entre os links */
+        margin-top: 10px;
+    }
+
+    img {
+        width: 20px;
+        height: 20px;
+    }
+
+    a {
+        font-size: 14px;
     }
 }
